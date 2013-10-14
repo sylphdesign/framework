@@ -1,7 +1,7 @@
 Framework
 =========
 
-A customizable framework for scalable, robust, front-end development. This framework is includes zero visual styling. It's all about reusable CSS, semantic markup, maintainable SASS, naming conventions and CSS components. Created by <a href="http://www.twitter.com/colmtuite" target="_blank">Colm Tuite</a>.
+A customizable framework for scalable, robust, front-end development. This framework includes zero visual styling. It's all about reusable CSS, semantic markup, maintainable SASS, naming conventions and CSS components. Created by <a href="http://www.twitter.com/colmtuite" target="_blank">Colm Tuite</a>.
 
 Things to note
 =========
