@@ -32,6 +32,7 @@ html {
 body,html,input,button,textarea,select {
   font-family: $basefontFamily;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 // Heading sizes

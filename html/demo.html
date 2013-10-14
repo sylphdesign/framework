@@ -1,0 +1,22 @@
+<!-- This demo shows how we can reuse the hover hook without
+resorting to IDs, nested selectors and specificity. In both
+cases, any content inside a "hover1" class will only be
+visible when the user hovers an element with a "hover-hook"
+class. To see the CSS, check out _hovers.scss -->
+
+<div class="comment hover-hook">
+  <img src="avatar">
+  <a href="#">Author</a>
+  <p>This is a comment written by the author.</p>
+  <a href="#" class="hover1">Close</a>
+</div>
+
+<div class="feed_item hover-hook">
+  <p><a href="#">Author</a> commented on a <a href="#">status</a>.</p>
+  <div class="hover1">
+    <a href="#" class="hover1">Like</a>
+    <a href="#" class="hover1">Report</a>
+    <a href="#" class="hover1">Follow</a>
+    <a href="#" class="hover1">Delete</a>
+  </div>
+</div>
