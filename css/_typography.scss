@@ -1,82 +1,85 @@
-// Reset fonts
+//
+// Documentation
+// -------------------------
+
+// Typography works just like buttons. You apply a
+// size class. Any size class can be used with any
+// h tag. Then apply a visual class which makes
+// each heading look a certain way. Define your own
+// visual CSS for these class. The class names I used
+// are just for demo purposes. Again, any colors should
+// be defined in a separate theme.scss file.
+
+// Reset
+// -------------------------
+
 h1,h2,h3,h4,h5,h6 {
   font-size: 100%;
   margin: 0;
 }
 
-// Base font sizing
+// Sizing
+// -------------------------
+
 html {
-  font-size: 13px;
-  line-height: 5vw;
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
 }
 
-// Base font styles
+// Base styles
+// -------------------------
+
 body,html,input,button,textarea,select {
-  font-family: $fontFamily;
+  font-family: $basefontFamily;
   -webkit-font-smoothing: antialiased;
 }
+
+// Heading sizes
+// -------------------------
 
 .h1 {
   font-size: $h1; // Specify rem fallback
   font-size: $h1; // Specify font-size in rems
   line-height: $h1;
-  
-  // Apply additional styling
-  font-weight: 300;
 }
 
 .h2 {
   font-size: $h2; // Specify rem fallback
   font-size: $h2; // Specify font-size in rems
   line-height: $h2;
-  
-  // Apply additional styling
 }
 
 .h3 {
   font-size: $h3; // Specify rem fallback
   font-size: $h3; // Specify font-size in rems
   line-height: $h3;
-  
-  // Apply additional styling
-  display: inline-block;
-  padding-bottom:4px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-bottom: 2px solid $base;
 }
 
 .h4 {
   font-size: $h4; // Specify rem fallback
   font-size: $h4; // Specify font-size in rems
   line-height: $h4;
-  
-  // Apply additional styling
 }
 
 .h5 {
   font-size: $h5; // Specify rem fallback
   font-size: $h5; // Specify font-size in rems
   line-height: $h5;
-  
-  // Apply additional styling
 }
 
 .h6 {
   font-size: $h6; // Specify rem fallback
   font-size: $h6; // Specify font-size in rems
   line-height: $h6;
-  
-  // Apply additional styling
 }
 
+// Heading styles
+// -------------------------
 
-.con {
-  margin: 0 auto;
-  width: 90%;
-  max-width: 800px;
+.h-thin {
+  // Define visual styling
 }
 
-p {
-  font-size: 3vw;
+.h-underline {
+  // Define visual styling
 }

@@ -1,4 +1,18 @@
-// Functional CSS for all buttons
+//
+// Documentation
+// -------------------------
+
+// To make a button, apply a size class to a link element.
+// Then define your visual style in a different class
+// and apply that. The functional CSS will get added
+// via a sass placeholder. Any skin styles like color,
+// background color or border color should be defined in
+// a separate theme.scss file.
+
+
+// Functionality
+// -------------------------
+
 %btn {
   display: inline-block;
   line-height: 1;
@@ -13,7 +27,9 @@
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-// Define button sizes
+// Button sizes
+// -------------------------
+
 .btn1 {
   font-size: 13px;
   padding: 15px 30px;
@@ -32,32 +48,17 @@
   @include rounded($px2, $px2, $px2, $px2);
 }
 
-// Define button appearances
+// Button appearances
+// -------------------------
+
 .btn-solid {
   @extend %btn;
-  font-weight: bold;
-  text-transform: uppercase;
-  &.accent {
-    @include gradient($accent, darken($accent, 7%));
-    border: 1px solid darken($accent, 10%);
-    text-shadow: 0 -1px 0 darken($accent, 10%);
-    color: #fff;
-    &:hover, &:focus {
-      @include gradient(lighten($accent, 5%), darken($accent, 7%));
-    }
-    &:active {
-      
-    }
-  }
+
+  // Define visual styles
 }
 
-// Define button appearances
 .btn-hollow {
   @extend %btn;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 3px solid; // Apply color in theme.scss
-  &:hover, &:focus, &:active {
-    // Insert visual styles
-  }
+  
+  // Define visual styles
 }
