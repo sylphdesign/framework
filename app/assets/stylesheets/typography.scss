@@ -1,0 +1,82 @@
+// Reset fonts
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  margin: 0;
+}
+
+// Base font sizing
+html {
+  font-size: 13px;
+  line-height: 5vw;
+}
+
+// Base font styles
+body,html,input,button,textarea,select {
+  font-family: $fontFamily;
+  -webkit-font-smoothing: antialiased;
+}
+
+.h1 {
+  font-size: $h1; // Specify rem fallback
+  font-size: $h1; // Specify font-size in rems
+  line-height: $h1;
+  
+  // Apply additional styling
+  font-weight: 300;
+}
+
+.h2 {
+  font-size: $h2; // Specify rem fallback
+  font-size: $h2; // Specify font-size in rems
+  line-height: $h2;
+  
+  // Apply additional styling
+}
+
+.h3 {
+  font-size: $h3; // Specify rem fallback
+  font-size: $h3; // Specify font-size in rems
+  line-height: $h3;
+  
+  // Apply additional styling
+  display: inline-block;
+  padding-bottom:4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid $base;
+}
+
+.h4 {
+  font-size: $h4; // Specify rem fallback
+  font-size: $h4; // Specify font-size in rems
+  line-height: $h4;
+  
+  // Apply additional styling
+}
+
+.h5 {
+  font-size: $h5; // Specify rem fallback
+  font-size: $h5; // Specify font-size in rems
+  line-height: $h5;
+  
+  // Apply additional styling
+}
+
+.h6 {
+  font-size: $h6; // Specify rem fallback
+  font-size: $h6; // Specify font-size in rems
+  line-height: $h6;
+  
+  // Apply additional styling
+}
+
+
+.con {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+p {
+  font-size: 3vw;
+}
