@@ -1,0 +1,61 @@
+// Functionality
+// -------------------------
+
+%input {
+  width: 100%;
+  // Remove blue outline on focus
+  outline: none;
+  // Disable tap highlight on iOS
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  // Override native input styling on iOS
+  -webkit-appearance:none;
+  padding: 0 10px;
+}
+
+
+.input1 {
+  @extend %input;
+  height: 64px;
+  line-height: 64px;
+  @include rounded($px1, $px1, $px1, $px1);
+}
+
+.input2 {
+  @extend %input;
+  font-size: 13px;
+  padding: 20px;
+  @include rounded($px2, $px2, $px2, $px2);
+}
+
+
+
+.input-1 {
+  border: 1px solid #cacace;
+  border-top-color: #97979b;
+  font-weight: bold;
+}
+
+.input-2 {
+  border: 1px solid #86868a;
+  font-weight: bold;
+}
+
+// Input placeholder
+// -------------------------
+
+::-webkit-input-placeholder {
+  
+}
+
+:-moz-placeholder {
+  
+}
+
+:-ms-input-placeholder {
+  
+}
+
+.placeholder {
+  
+  // Class added via JS shim for IE7-9
+}

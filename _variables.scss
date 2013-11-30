@@ -8,15 +8,15 @@
 $bp1: 320px;
 $bp2: 680px;
 $bp3: 1180px;
-$bp4: 1640px;
+$bp4: 1500px;
 $bp5: 2000px;
 $bp6: 3000px;
 
 // Typography
 // -------------------------
 
-$baseFontFamily: "Helvetica Neue", arial, sans-serif;
-$baseFontSize: 13px;
+$baseFontFamily: "proxima nova", "Helvetica Neue", arial, sans-serif;
+$baseFontSize: 16px;
 $baseLineHeight: 1.6;
 
 $h1: 2.2rem;
@@ -29,7 +29,7 @@ $h6: 0.7rem;
 // Color scheme
 // -------------------------
 
-$accent: #37ccbd;
+$accent: #4387fd;
 $complement: #ff4166;
 $base: #47525e;
 $neutral: #e8ecf0;

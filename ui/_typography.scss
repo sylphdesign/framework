@@ -30,45 +30,47 @@ html {
 // -------------------------
 
 body,html,input,button,textarea,select {
-  font-family: $basefontFamily;
+  font-family: $baseFontFamily;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  color: $base;
 }
 
 // Heading sizes
 // -------------------------
 
-.h1 {
+h1, .h1 {
   font-size: $h1; // Specify rem fallback
   font-size: $h1; // Specify font-size in rems
   line-height: $h1;
 }
 
-.h2 {
+h2, .h2 {
   font-size: $h2; // Specify rem fallback
   font-size: $h2; // Specify font-size in rems
   line-height: $h2;
 }
 
-.h3 {
+h3, .h3 {
   font-size: $h3; // Specify rem fallback
   font-size: $h3; // Specify font-size in rems
   line-height: $h3;
 }
 
-.h4 {
+h4, .h4 {
   font-size: $h4; // Specify rem fallback
   font-size: $h4; // Specify font-size in rems
   line-height: $h4;
 }
 
-.h5 {
+h5, .h5 {
   font-size: $h5; // Specify rem fallback
   font-size: $h5; // Specify font-size in rems
   line-height: $h5;
 }
 
-.h6 {
+h6, .h6 {
   font-size: $h6; // Specify rem fallback
   font-size: $h6; // Specify font-size in rems
   line-height: $h6;

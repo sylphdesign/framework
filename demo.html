@@ -1,22 +1,80 @@
-<!-- This demo shows how we can reuse the hover hook without
-resorting to IDs, nested selectors and specificity. In both
-cases, any content inside a "hover1" class will only be
-visible when the user hovers an element with a "hover-hook"
-class. To see the CSS, check out _hovers.scss -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+    
+      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+      <link rel="stylesheet" href="framework.css">
+  </head>
+  <body style="padding: 200px;">
+    
+    <div>
+      <nav class="inline">
+        <li>
+          <a href="#">Fuck</a>
+        </li>
+        <a href="#">Fuck</a>
+        <a href="#">Fuck</a>
+        <a href="#">Fuck</a>
+        <a href="#">Fuck</a>
+      </nav>
+    </div>
+    
+    <nav class="inline">
+      <a href="#" class="btn1 btn-1">Fuck off</a>
+      <a href="#" class="btn1 btn-2">Fuck off</a>
+      <a href="#" class="btn1 btn-3">Fuck off</a>
+      <a href="#" class="btn1 btn-4">Fuck off</a>
+      <a href="#" class="btn1 btn-5">Fuck off</a>
+      <a href="#" class="btn6 btn-1">Fuck off</a>
+    </nav>
+    
+    <br>
+    <br>
+    <br>
+    
+    <nav>
+      <input type="text" class="input1 input-1" placeholder="Fuck off">
+      <input type="text" class="input2 input-2" placeholder="Fuck off">
+    </nav>
+    
+    <br>
+    <br>
+    <br>
+    
+    <nav class="inline">
+      <a href="#" class="btn2 btn-1">Fuck off</a>
+      <a href="#" class="btn2 btn-2">Fuck off</a>
+      <a href="#" class="btn2 btn-3">Fuck off</a>
+      <a href="#" class="btn2 btn-4">Fuck off</a>
+      <a href="#" class="btn2 btn-5">Fuck off</a>
+    </nav>
+    
+    <br>
+    <br>
+    <br>
+    
+    <nav class="inline">
+      <a href="#" class="btn3 btn-1">Fuck off</a>
+      <a href="#" class="btn3 btn-2">Fuck off</a>
+      <a href="#" class="btn3 btn-3">Fuck off</a>
+      <a href="#" class="btn3 btn-4">Fuck off</a>
+      <a href="#" class="btn3 btn-5">Fuck off</a>
+    </nav>
+    
+    <br>
+    <br>
+    <br>
+    
+    <div style="width: 400px;">
+      <h1>Fuck off ye grinnick.</h1>
+      <p style="line-height: 1.7">Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+    </div>
 
-<div class="comment hover-hook">
-  <img src="avatar">
-  <a href="#">Author</a>
-  <p>This is a comment written by the author.</p>
-  <a href="#" class="hover1">Close</a>
-</div>
-
-<div class="feed_item hover-hook">
-  <p><a href="#">Author</a> commented on a <a href="#">status</a>.</p>
-  <div class="hover1">
-    <a href="#" class="hover1">Like</a>
-    <a href="#" class="hover1">Report</a>
-    <a href="#" class="hover1">Follow</a>
-    <a href="#" class="hover1">Delete</a>
-  </div>
-</div>
+  </body>
+</html>
