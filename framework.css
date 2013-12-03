@@ -468,6 +468,10 @@ table {
   .btn-5:hover {
     background: #4d8dfd; }
 
+fuck {
+  background: purple;
+  color: white; }
+
 .input1, .input2 {
   width: 100%;
   outline: none;
