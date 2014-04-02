@@ -1,9 +1,8 @@
 @import "css/generic/normalize";
 @import "css/generic/mixins";
-@import "css/generic/reset";
+@import "css/generic/box-sizing";
 
 @import "css/variables";
-
 
 @import "css/ui/forms";
 @import "css/ui/links";
@@ -14,4 +13,6 @@
 @import "css/objects/inline";
 @import "css/objects/grid";
 @import "css/objects/visibility";
-//@import "objects/hovers";
+@import "objects/hidden";
+@import "objects/invisible";
+@import "objects/visually-hidden";

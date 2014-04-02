@@ -1,0 +1,14 @@
+//
+// Box Sizing
+// -------------------------
+
+// Set global `box-sizing` to `border-box`.
+
+
+*,
+*:before,
+*:after {
+  margin:0;
+  padding:0;
+  @include box-sizing;
+}
