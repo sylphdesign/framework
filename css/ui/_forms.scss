@@ -20,13 +20,6 @@
   @include rounded($px1, $px1, $px1, $px1);
 }
 
-.input2 {
-  @extend %input;
-  font-size: 13px;
-  padding: 20px;
-  @include rounded($px2, $px2, $px2, $px2);
-}
-
 
 
 .input-1 {
@@ -36,7 +29,8 @@
 }
 
 .input-2 {
-  border: 1px solid #86868a;
+  border: 1px solid #cacace;
+  border-top-color: #97979b;
   font-weight: bold;
 }
 

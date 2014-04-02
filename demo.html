@@ -9,9 +9,29 @@
     
       <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     
-      <link rel="stylesheet" href="framework.css">
+      <link rel="stylesheet" href="css/framework.css">
   </head>
   <body style="padding: 200px;">
+    
+    <div>
+      <span class="js-hoverHook" data-hook="1">Hook</span>
+      <span class="invisible js-hoverTarget" data-target="1">Target</span>
+    </div>
+    
+    <div>
+      <span class="js-textEdit" data-text="Show less">Show more</span>
+    </div>
+    
+    <div>
+      <span class="js-clickFunction" data-target=".js-target" data-class="active">Click</span>
+      <span class="js-target">Target</span>
+      
+      <span class="js-scrollTo" data-target=".js-scrollTo" data-class="active">Scrol</span>
+    </div>
+    
+    <div>
+      <button class="btn-sm js-rUI" data-media-sm="sm" data-media-med="med" data-media-med="lg">Responsive Button</button>
+    </div>
     
     <div>
       <nav class="inline">
@@ -47,8 +67,8 @@
     <br>
     
     <nav>
-      <input type="text" class="input1 input-1" placeholder="Hello">
-      <input type="text" class="input2 input-2" placeholder="Hello">
+      <input type="text" class="input2 input-1" placeholder="Hello">
+      <input type="text" class="input2 input-1" placeholder="Hello">
     </nav>
     
     <br>
@@ -83,6 +103,12 @@
       <h1>Hello.</h1>
       <p style="line-height: 1.7">Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
     </div>
-
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/objects/textEdit.js"></script>
+    <script src="js/objects/hoverHook.js"></script>
+    <script src="js/objects/clickFunction.js"></script>
+    <script src="js/objects/responsiveUI.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

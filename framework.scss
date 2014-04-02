@@ -1,16 +1,17 @@
-@import "generic/normalize";
-@import "generic/mixins";
-@import "generic/reset";
+@import "css/generic/normalize";
+@import "css/generic/mixins";
+@import "css/generic/reset";
 
-@import "variables";
+@import "css/variables";
 
-@import "ui/buttons";
-@import "ui/forms";
-@import "ui/links";
-@import "ui/typography";
 
-@import "theme";
+@import "css/ui/forms";
+@import "css/ui/links";
+@import "css/ui/typography";
 
-@import "objects/inline";
-@import "objects/grid";
+@import "css/theme";
+
+@import "css/objects/inline";
+@import "css/objects/grid";
+@import "css/objects/visibility";
 //@import "objects/hovers";
