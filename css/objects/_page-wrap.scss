@@ -1,0 +1,12 @@
+//
+// Page Wrap
+// -------------------------
+
+// Wrap a piece of content in a horizontally
+// centered container.
+
+.pageWrap {
+  width: $pageWrapWidth;
+  max-width: $pageWrapMaxWidth;
+  margin: 0 auto; // Maybe this should be extended?
+}

@@ -75,14 +75,14 @@
   text-transform: uppercase;
   font-weight: bold;
   
-  @include gradient($accent, darken($accent, 8%));
+  @include gradient($accent, darken($accent, 8%), $accent);
   border-color: darken($accent, 5%);
   border-bottom-color: darken($accent, 20%);
   color: #fff;
   text-shadow: 0 1px 0 darken($accent, 15%);
   box-shadow: inset 0 1px 0 lighten($accent, 20%), 0 1px 0 rgba(0, 0, 0, .1);
   &:hover {
-    @include gradient(lighten($accent, 2%), darken($accent, 7%));
+    @include gradient(lighten($accent, 2%), darken($accent, 7%), $accent);
     border-color: darken($accent, 20%);
   }
 }
