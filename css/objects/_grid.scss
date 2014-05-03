@@ -2,9 +2,9 @@
 // Grid
 // -------------------------
 
-$gutter: $px4;
+$gutter: $px5;
 
-[class*="grid-"]{
+[class*="grid-"] {
   margin-top: -$gutter;
   margin-left: -$gutter;
   @extend .cf;

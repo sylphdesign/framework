@@ -63,3 +63,8 @@
   background: $accent;
   color: white;
 }
+
+.gradientGray2 {
+  @include gradient($gray2, darken($gray2, 8%), $gray2);
+  color: lighten($gray2, 40%);
+}

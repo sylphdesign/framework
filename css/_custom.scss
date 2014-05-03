@@ -5,11 +5,38 @@
   }
   h1 {
     @extend .type-underline;
-    @extend .mb4;
+    @extend .mb5;
   }
   h2 {
     @extend .type2;
     @extend .type-thin;
-    @extend .mb4;
+    @extend .mb5;
+  }
+}
+
+
+.topBar {
+  @extend .gradientGray2;
+  height: 50px;
+  border-bottom: #000;
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  line-height: 50px;
+  .inline {
+    @extend .floatR;
+    > div {
+      @extend .ml5;
+    }
+  }
+}
+
+.pageFoot {
+  @extend .cf;
+  @extend .pt5;
+  @extend .pb5;
+  .inline {
+    @extend .floatR;
+    > div {
+      @extend .ml5;
+    }
   }
 }
