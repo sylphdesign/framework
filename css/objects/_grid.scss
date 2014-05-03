@@ -2,33 +2,31 @@
 // Grid
 // -------------------------
 
-$gutter: 40px;
+$gutter: $px4;
 
 [class*="grid-"]{
-  background: coral;
   margin-top: -$gutter;
   margin-left: -$gutter;
   @extend .cf;
-  > div {
-    background: pink;
+  > * {
     float:left;
     margin-top: $gutter;
     margin-left: $gutter;
   }
 }
 
-.grid-2 > div {
+.grid-2 > * {
   width: calc(50% - #{$gutter});
 }
 
-.grid-3 > div {
+.grid-3 > * {
   width: calc(33.33% - #{$gutter});
 }
 
-.grid-4 > div {
+.grid-4 > * {
   width: calc(25% - #{$gutter});
 }
 
-.grid-5 > div {
+.grid-5 > * {
   width: calc(20% - #{$gutter});
 }

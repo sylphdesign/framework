@@ -1,0 +1,15 @@
+.landing {
+  section {
+    @extend .pt6;
+    @extend .pb6;
+  }
+  h1 {
+    @extend .type-underline;
+    @extend .mb4;
+  }
+  h2 {
+    @extend .type2;
+    @extend .type-thin;
+    @extend .mb4;
+  }
+}

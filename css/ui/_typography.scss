@@ -40,37 +40,37 @@ body,html,input,button,textarea,select {
 // Heading sizes
 // -------------------------
 
-.h1 {
+.type1 {
   font-size: $h1; // Specify rem fallback
   font-size: $h1; // Specify font-size in rems
   line-height: $h1;
 }
 
-.h2 {
+.type2 {
   font-size: $h2; // Specify rem fallback
   font-size: $h2; // Specify font-size in rems
   line-height: $h2;
 }
 
-.h3 {
+.type3 {
   font-size: $h3; // Specify rem fallback
   font-size: $h3; // Specify font-size in rems
   line-height: $h3;
 }
 
-.h4 {
+.type4 {
   font-size: $h4; // Specify rem fallback
   font-size: $h4; // Specify font-size in rems
   line-height: $h4;
 }
 
-.h5 {
+.type5 {
   font-size: $h5; // Specify rem fallback
   font-size: $h5; // Specify font-size in rems
   line-height: $h5;
 }
 
-.h6 {
+.type6 {
   font-size: $h6; // Specify rem fallback
   font-size: $h6; // Specify font-size in rems
   line-height: $h6;
@@ -79,10 +79,15 @@ body,html,input,button,textarea,select {
 // Heading styles
 // -------------------------
 
-.h-thin {
-  // Define visual styling
+.type-thin {
+  font-weight: 400;
 }
 
-.h-underline {
-  // Define visual styling
+.type-underline {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid;
 }

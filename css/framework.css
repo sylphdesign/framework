@@ -510,35 +510,46 @@ body, html, input, button, textarea, select {
   text-rendering: optimizeLegibility;
   color: #47525e; }
 
-.h1 {
+.type1 {
   font-size: 2.2rem;
   font-size: 2.2rem;
   line-height: 2.2rem; }
 
-.h2 {
+.type2, .landing h2 {
   font-size: 1.7rem;
   font-size: 1.7rem;
   line-height: 1.7rem; }
 
-.h3 {
+.type3 {
   font-size: 11px;
   font-size: 11px;
   line-height: 11px; }
 
-.h4 {
+.type4 {
   font-size: 1rem;
   font-size: 1rem;
   line-height: 1rem; }
 
-.h5 {
+.type5 {
   font-size: 0.85rem;
   font-size: 0.85rem;
   line-height: 0.85rem; }
 
-.h6 {
+.type6 {
   font-size: 0.7rem;
   font-size: 0.7rem;
   line-height: 0.7rem; }
+
+.type-thin, .landing h2 {
+  font-weight: 400; }
+
+.type-underline, .landing h1 {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid; }
 
 .c1 {
   background: #4387fd;
@@ -560,6 +571,10 @@ body, html, input, button, textarea, select {
   background: #4387fd;
   color: #012b73; }
 
+.accent {
+  background: #4387fd;
+  color: white; }
+
 .cf:before, [class*="grid-"]:before, .inline:before, .cf:after, [class*="grid-"]:after, .inline:after {
   content: "";
   display: table; }
@@ -573,29 +588,45 @@ body, html, input, button, textarea, select {
   margin: 0 auto; }
 
 [class*="grid-"] {
-  background: coral;
   margin-top: -40px;
   margin-left: -40px; }
-  [class*="grid-"] > div {
-    background: pink;
+  [class*="grid-"] > * {
     float: left;
     margin-top: 40px;
     margin-left: 40px; }
 
-.grid-2 > div {
+.grid-2 > * {
   width: calc(50% - 40px); }
 
-.grid-3 > div {
+.grid-3 > * {
   width: calc(33.33% - 40px); }
 
-.grid-4 > div {
+.grid-4 > * {
   width: calc(25% - 40px); }
 
-.grid-5 > div {
+.grid-5 > * {
   width: calc(20% - 40px); }
+
+.pa3 {
+  padding: 20px; }
+
+.pt6, .landing section {
+  padding-top: 120px; }
+
+.pb6, .landing section {
+  padding-bottom: 120px; }
+
+.mt4 {
+  margin-top: 40px; }
+
+.mb4, .landing h1, .landing h2 {
+  margin-bottom: 40px; }
 
 .inline > * {
   float: left; }
+
+.center {
+  text-align: center; }
 
 .vertically-center {
   position: relative;

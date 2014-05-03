@@ -11,106 +11,147 @@
     
       <link rel="stylesheet" href="css/framework.css">
   </head>
-  <body>
+  <body class="landing">
     
-    <div class="pageWrap">
-      <div>
-        <span class="js-hoverHook" data-hook="1">Hook</span>
-        <span class="invisible js-hoverTarget" data-target="1">Target</span>
-      </div>
+    <!-- Variables in one external file or at top of relevant files? -->
+    <!-- Responsive grids -->
+    <!-- Heading size class names. Not hx. FontX? TypeX? -->
+    <!-- Background class names. cX? Accent? -->
+    <!-- Spacing object. Full list of classes? Placeholders? -->
+    <!-- Text align. Just center as its own object?! -->
+    <!-- Space variables. $px6? or $space6? -->
+    <!-- Where put custom UI styles? Headings, buttons inputs etc. -->
+    <!-- Styling based on body class? e.g. style all sections on page -->
     
-      <div>
-        <span class="js-textEdit" data-text="Show less">Show more</span>
-      </div>
+    <div>
+      <span class="js-hoverHook" data-hook="1">Hook</span>
+      <span class="invisible js-hoverTarget" data-target="1">Target</span>
+    </div>
+  
+    <div>
+      <span class="js-textEdit" data-text="Show less">Show more</span>
+    </div>
+  
+    <div>
+      <span class="js-clickFunction" data-target=".js-target" data-class="active">Click</span>
+      <span class="js-target">Target</span>
     
-      <div>
-        <span class="js-clickFunction" data-target=".js-target" data-class="active">Click</span>
-        <span class="js-target">Target</span>
-      
-        <span class="js-scrollTo" data-target=".js-scrollTo" data-class="active">Scrol</span>
-      </div>
-    
-      <div>
-        <button class="btn-sm js-rUI" data-media-sm="sm" data-media-med="med" data-media-med="lg">Responsive Button</button>
-      </div>
-    
-      <div>
-        <nav class="inline">
-          <li>
-            <a href="#">Hello</a>
-          </li>
-          <a href="#">Hello</a>
-          <a href="#">Hello</a>
-          <a href="#">Hello</a>
-          <a href="#">Hello</a>
-        </nav>
-      </div>
-    
+      <span class="js-scrollTo" data-target=".js-scrollTo" data-class="active">Scrol</span>
+    </div>
+  
+    <div>
+      <button class="btn-sm js-rUI" data-media-sm="sm" data-media-med="med" data-media-med="lg">Responsive Button</button>
+    </div>
+  
+    <div>
       <nav class="inline">
-        <a href="#" class="btn1 btn-1">Hello</a>
-        <a href="#" class="btn1 btn-2">Hello</a>
-        <a href="#" class="btn1 btn-3">Hello</a>
-        <a href="#" class="btn1 btn-4">Hello</a>
-        <a href="#" class="btn1 btn-5">Hello</a>
-        <a href="#" class="btn6 btn-1">Hello</a>
+        <li>
+          <a href="#">Hello</a>
+        </li>
+        <a href="#">Hello</a>
+        <a href="#">Hello</a>
+        <a href="#">Hello</a>
+        <a href="#">Hello</a>
       </nav>
-    
-      <br>
-      <br>
-      <br>
-    
-      <nav class="inline">
-        <fuck>Fake tag</fuck>
-      </nav>
-    
-      <br>
-      <br>
-      <br>
-    
-      <nav>
-        <input type="text" class="input2 input-1" placeholder="Hello">
-        <input type="text" class="input2 input-1" placeholder="Hello">
-      </nav>
-    
-      <br>
-      <br>
-      <br>
-    
-      <nav class="inline">
-        <a href="#" class="btn2 btn-1">Hello</a>
-        <a href="#" class="btn2 btn-2">Hello</a>
-        <a href="#" class="btn2 btn-3">Hello</a>
-        <a href="#" class="btn2 btn-4">Hello</a>
-        <a href="#" class="btn2 btn-5">Hello</a>
-      </nav>
-    
-      <br>
-      <br>
-      <br>
-    
-      <nav class="inline">
-        <a href="#" class="btn3 btn-1">Hello</a>
-        <a href="#" class="btn3 btn-2">Hello</a>
-        <a href="#" class="btn3 btn-3">Hello</a>
-        <a href="#" class="btn3 btn-4">Hello</a>
-        <a href="#" class="btn3 btn-5">Hello</a>
-      </nav>
-    
-      <br>
-      <br>
-      <br>
-    
-      <div style="width: 400px;">
-        <h1>Hello.</h1>
-        <p style="line-height: 1.7">Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+    </div>
+  
+    <nav class="inline">
+      <a href="#" class="btn1 btn-1">Hello</a>
+      <a href="#" class="btn1 btn-2">Hello</a>
+      <a href="#" class="btn1 btn-3">Hello</a>
+      <a href="#" class="btn1 btn-4">Hello</a>
+      <a href="#" class="btn1 btn-5">Hello</a>
+      <a href="#" class="btn6 btn-1">Hello</a>
+    </nav>
+  
+    <br>
+    <br>
+    <br>
+  
+    <nav class="inline">
+      <fuck>Fake tag</fuck>
+    </nav>
+  
+    <br>
+    <br>
+    <br>
+  
+    <nav>
+      <input type="text" class="input2 input-1" placeholder="Hello">
+      <input type="text" class="input2 input-1" placeholder="Hello">
+    </nav>
+  
+    <br>
+    <br>
+    <br>
+  
+    <nav class="inline">
+      <a href="#" class="btn2 btn-1">Hello</a>
+      <a href="#" class="btn2 btn-2">Hello</a>
+      <a href="#" class="btn2 btn-3">Hello</a>
+      <a href="#" class="btn2 btn-4">Hello</a>
+      <a href="#" class="btn2 btn-5">Hello</a>
+    </nav>
+  
+    <br>
+    <br>
+    <br>
+  
+    <nav class="inline">
+      <a href="#" class="btn3 btn-1">Hello</a>
+      <a href="#" class="btn3 btn-2">Hello</a>
+      <a href="#" class="btn3 btn-3">Hello</a>
+      <a href="#" class="btn3 btn-4">Hello</a>
+      <a href="#" class="btn3 btn-5">Hello</a>
+    </nav>
+  
+    <br>
+    <br>
+    <br>
+  
+    <div style="width: 400px;">
+      <h1>Hello.</h1>
+      <p style="line-height: 1.7">Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+    </div>
+  
+    <section class="c1">
+      <div class="pageWrap">
+        <hgroup class="center">
+          <h1>Talk videos now available</h1>
+          <h2>We’re excited to announce that the entire 10 hours of talks by our amazing speakers </h2>
+        </hgroup>
+        <div class="grid-3">
+          <div>
+            <p><strong>fewfwefew</strong></p>
+            <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+          </div>
+          <div>
+            <p><strong>fewfwefew</strong></p>
+            <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+          </div>
+          <div>
+            <p><strong>fewfwefew</strong></p>
+            <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+          </div>
+        </div>
       </div>
+    </section>
     
-      <section>
+    <section class="center white">
+      <div class="pageWrap">
         <hgroup>
           <h1>Talk videos now available</h1>
           <h2>We’re excited to announce that the entire 10 hours of talks by our amazing speakers </h2>
         </hgroup>
-          <div class="grid-3">
+        <div class="grid-4">
+          <div>
+            <p><strong>fewfwefew</strong></p>
+            <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+          </div>
+          <div>
+            <p><strong>fewfwefew</strong></p>
+            <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+          </div>
           <div>
             <p><strong>fewfwefew</strong></p>
             <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
@@ -136,9 +177,31 @@
             <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
           </div>
         </div>
-      </section>
-      
-    </div>
+      </div>
+    </section>
+    
+    <section class="c4">
+      <div class="pageWrap">
+        <hgroup class="center">
+          <h1>Talk videos</h1>
+          <h2>We’re excited to announce that the entire 10 hours of talks by our amazing speakers </h2>
+        </hgroup>
+        <div class="grid-2">
+          <div>
+            <div class="accent pa3">
+              <p><strong>fewfwefew</strong></p>
+              <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+            </div>
+          </div>
+          <div>
+            <div class="accent pa3">
+              <p><strong>fewfwefew</strong></p>
+              <p>Kevin Hale of Wufoo (which was acquired by SurveyMonkey) talks about how the most important thing about customer service is that you have to do it all the time, in every department.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/objects/textEdit.js"></script>
