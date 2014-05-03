@@ -1,0 +1,19 @@
+//
+// Clearfix
+// -------------------------
+
+// Micro clearfix to clear floats.
+
+.cf {
+  &:before,
+  &:after {
+    content:"";
+    display:table;
+  }
+}
+
+.cf {
+  &:after {
+    clear:both;
+  }
+}

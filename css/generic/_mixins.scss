@@ -49,8 +49,8 @@
 }
 
 // Gradient
-@mixin gradient($value1, $value2) {
-  background-color:$value1;
+@mixin gradient($value1, $value2 , $value3) {
+  background-color: $value3;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($value1), to($value2));
 	background-image: -webkit-linear-gradient(top, $value1, $value2);
 	background-image: -moz-linear-gradient(top, $value1, $value2);
