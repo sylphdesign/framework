@@ -1,5 +1,5 @@
 //
-// Documentation
+// Typography
 // -------------------------
 
 // Typography works just like buttons. You apply a
@@ -9,6 +9,16 @@
 // visual CSS for these class. The class names I used
 // are just for demo purposes. Again, any colors should
 // be defined in a separate theme.scss file.
+
+// Variables
+// -------------------------
+
+$baseFontFamily: "source sans pro", "Helvetica Neue", arial, sans-serif;
+$codeFontFamily: "source code pro", Menlo, Monaco, Consolas, "Courier New", monospace;
+
+$baseFontFamily: "proxima nova", "Helvetica Neue", arial, sans-serif;
+$baseFontSize: 16px;
+$baseLineHeight: 1.6;
 
 // Reset
 // -------------------------

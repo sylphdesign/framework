@@ -28,6 +28,13 @@
           user-select: none;
 }
 
+@mixin round($value) {
+  -webkit-border-radius: $value;
+	   -moz-border-radius: $value;
+	        border-radius: $value;
+	 -khtml-border-radius: $value;
+}
+
 @mixin rounded($topL, $topR, $botR, $botL) {
   -webkit-border-radius: $topL $topR $botR $botL;
 	   -moz-border-radius: $topL $topR $botR $botL;

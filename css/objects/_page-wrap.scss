@@ -5,6 +5,12 @@
 // Wrap a piece of content in a horizontally
 // centered container.
 
+// Variables
+// -------------------------
+
+$pageWrapWidth: 90%;
+$pageWrapMaxWidth: 1000px;
+
 .pageWrap {
   width: $pageWrapWidth;
   max-width: $pageWrapMaxWidth;

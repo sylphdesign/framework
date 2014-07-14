@@ -1,3 +1,12 @@
+$accent: #4387fd;
+$complement: #ff4166;
+$base: #47525e;
+$neutral: #e8ecf0;
+
+$gray2: #47525e;
+
+
+
 %theme {
   &.accent {
     background:$accent;
@@ -67,4 +76,19 @@
 .gradientGray2 {
   @include gradient($gray2, darken($gray2, 8%), $gray2);
   color: lighten($gray2, 40%);
+}
+
+
+
+
+
+
+
+.bg-accentGradient {
+  @include gradient($accent, darken($accent, 8%), $accent);
+  color: #fff;
+}
+
+.bg-accentGradient2 {
+  @include gradient($accent, darken($accent, 12%), $accent);
 }

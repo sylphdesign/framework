@@ -15,26 +15,12 @@ $bp6: 3000px;
 // Typography
 // -------------------------
 
-$baseFontFamily: "proxima nova", "Helvetica Neue", arial, sans-serif;
-$baseFontSize: 16px;
-$baseLineHeight: 1.6;
-
 $h1: 2.2rem;
 $h2: 2rem;
 $h3: 11px;
 $h4: 1rem;
 $h5: 0.85rem;
 $h6: 0.7rem;
-
-// Color scheme
-// -------------------------
-
-$accent: #4387fd;
-$complement: #ff4166;
-$base: #47525e;
-$neutral: #e8ecf0;
-
-$gray2: #47525e;
 
 // Spacing
 // -------------------------
@@ -46,9 +32,3 @@ $px4: 20px;
 $px5: 50px;
 $px6: 120px;
 $offCanvas: -9999px;
-
-// Page wrap
-// -------------------------
-
-$pageWrapWidth: 90%;
-$pageWrapMaxWidth: 1000px;

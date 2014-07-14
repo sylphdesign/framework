@@ -1,6 +1,12 @@
+//
+// Inline
+// -------------------------
+
+// Place any elements inline within a
+// parent component.
+
 .inline {
   @extend .cf;
-  
   > * {
     float: left;
   }
