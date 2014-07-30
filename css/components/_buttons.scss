@@ -38,7 +38,7 @@ $btn2: 46px;
 // Button sizes
 // -------------------------
 
-.btn-1 {
+.btn--1 {
   @extend %btn;
   height: $btn1;
   line-height: $btn1;
@@ -47,7 +47,7 @@ $btn2: 46px;
   @extend .round-1;
 }
 
-.btn-2 {
+.btn--2 {
   @extend %btn;
   height: $btn2;
   line-height: $btn2;
@@ -56,23 +56,10 @@ $btn2: 46px;
   @extend .round-1;
 }
 
-// Button appearances
+// Button styles
 // -------------------------
 
-.btn-accent {
-  @extend .bg-accentGradient;
-  border: 1px solid;
-  border-color: darken($accent, 5%);
-  border-bottom-color: darken($accent, 20%);
-  text-shadow: 0 1px 0 darken($accent, 15%);
-  box-shadow: inset 0 1px 0 lighten($accent, 20%), 0 1px 0 rgba(0, 0, 0, .1);
-  &:hover {
-    @extend .bg-accentGradient2;
-    border-color: darken($accent, 20%);
-  }
-}
-
-.btn-flat {
+.btn--flat {
   background: $accent;
   color: #fff;
   border: 0;
@@ -81,7 +68,7 @@ $btn2: 46px;
   }
 }
 
-.btn-hollow {
+.btn--hollow {
   background: none;
   color: $accent;
   border: 2px solid;
@@ -89,15 +76,5 @@ $btn2: 46px;
   &:hover {
     border-color: darken($accent, 10%);
     color: darken($accent, 10%);
-  }
-}
-
-.btn-glass {
-  background: $accent;
-  color: $accent;
-  border: 2px solid;
-  border-color: rgba(255,255,255,.5);
-  &:hover {
-    background: $accent;
   }
 }

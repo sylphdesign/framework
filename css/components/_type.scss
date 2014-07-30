@@ -13,10 +13,9 @@
 // Variables
 // -------------------------
 
-$baseFontFamily: "source sans pro", "Helvetica Neue", arial, sans-serif;
+$baseFontFamily: "proxima nova", "Helvetica Neue", arial, sans-serif;
 $codeFontFamily: "source code pro", Menlo, Monaco, Consolas, "Courier New", monospace;
 
-$baseFontFamily: "proxima nova", "Helvetica Neue", arial, sans-serif;
 $baseFontSize: 16px;
 $baseLineHeight: 1.6;
 
@@ -26,6 +25,8 @@ $baseLineHeight: 1.6;
 h1,h2,h3,h4,h5,h6 {
   font-size: 100%;
   margin: 0;
+  font-weight: 500;
+  line-height: 1;
 }
 
 // Sizing
@@ -50,54 +51,34 @@ body,html,input,button,textarea,select {
 // Heading sizes
 // -------------------------
 
-.type1 {
-  font-size: $h1; // Specify rem fallback
-  font-size: $h1; // Specify font-size in rems
-  line-height: $h1;
+.font--1 {
+  font-size: 14px;
+  line-height: 22px;
 }
 
-.type2 {
+.font--2 {
   font-size: $h2; // Specify rem fallback
   font-size: $h2; // Specify font-size in rems
   line-height: $h2;
 }
 
-.type3 {
-  font-size: $h3; // Specify rem fallback
-  font-size: $h3; // Specify font-size in rems
-  line-height: $h3;
+.font--3 {
+  font-size: 19px;
+  line-height: 28px;
 }
 
-.type4 {
-  font-size: $h4; // Specify rem fallback
-  font-size: $h4; // Specify font-size in rems
-  line-height: $h4;
+.font--4 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 36px;
 }
 
-.type5 {
-  font-size: $h5; // Specify rem fallback
-  font-size: $h5; // Specify font-size in rems
-  line-height: $h5;
-}
-
-.type6 {
-  font-size: $h6; // Specify rem fallback
-  font-size: $h6; // Specify font-size in rems
-  line-height: $h6;
-}
-
-// Heading styles
-// -------------------------
-
-.type-thin {
-  font-weight: 400;
-}
-
-.type-underline {
-  display: inline-block;
-  font-size: 11px;
+.font--5 {
+  @extend .u-displayInlineBlock;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding-bottom: 2px;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid $gray3;
 }

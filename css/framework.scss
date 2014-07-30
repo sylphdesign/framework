@@ -2,30 +2,29 @@
 @import "css/base/mixins";
 @import "css/base/theme";
 
-@import "css/vendor/normalize";
+@import "css/base/normalize";
 
-@import "css/objects/box-sizing";
-@import "css/objects/typekit-fout";
-@import "css/objects/clearfix";
-@import "css/objects/page-wrap";
-@import "css/objects/grid";
-@import "css/objects/floats";
-@import "css/objects/spacing";
-@import "css/objects/inline";
-@import "css/objects/media";
-@import "css/objects/text-align";
-@import "css/objects/vertically-center";
-@import "css/objects/round";
-@import "css/objects/hidden";
-@import "css/objects/invisible";
-@import "css/objects/visually-hidden";
-@import "css/objects/unselectable";
-@import "css/objects/tap-highlight";
-@import "css/objects/backface-visibility";
+@import "css/utilities/box-sizing";
+@import "css/utilities/typekit-fout";
+@import "css/utilities/clearfix";
+@import "css/utilities/page-wrap";
+@import "css/utilities/display";
+@import "css/utilities/grid";
+@import "css/utilities/floats";
+@import "css/utilities/spacing";
+@import "css/utilities/inline";
+@import "css/utilities/media";
+@import "css/utilities/text-align";
+@import "css/utilities/vertically-center";
+@import "css/utilities/border-radius";
+@import "css/utilities/hidden";
+@import "css/utilities/invisible";
+@import "css/utilities/visually-hidden";
+@import "css/utilities/unselectable";
+@import "css/utilities/tap-highlight";
+@import "css/utilities/backface-visibility";
 
 @import "css/components/buttons";
 @import "css/components/forms";
 @import "css/components/links";
 @import "css/components/type";
-
-@import "css/custom/custom";

@@ -1,0 +1,21 @@
+//
+// Vertical alignment
+// -------------------------
+
+// Depends on an appropriate `display` value.
+
+.u-alignBaseline {
+  vertical-align: baseline;
+}
+
+.u-alignBottom {
+  vertical-align: bottom;
+}
+
+.u-alignMiddle {
+  vertical-align: middle;
+}
+
+.u-alignTop {
+  vertical-align: top;
+}

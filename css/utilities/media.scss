@@ -1,0 +1,29 @@
+/**
+* @name         Media block
+* @desc         Media block - image on left/right, text next to it.
+* @author       
+* @tested       
+* @requires     
+*/
+
+.media {
+  @extend .cf;
+}
+
+.media-img {
+  float: left;
+  margin-right: 10px;
+  > img {
+    display: block;
+  }
+}
+
+.media-imgExt {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.media-body {
+  @extend .cf;
+}
